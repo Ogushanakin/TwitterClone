@@ -20,6 +20,7 @@
 		713DB775291C15CE00063F5D /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DB774291C15CE00063F5D /* ConversationsController.swift */; };
 		713DB778291C1BFA00063F5D /* Extensions+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DB777291C1BFA00063F5D /* Extensions+Layout.swift */; };
 		716BADAB291ED289008C6F69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716BADAA291ED289008C6F69 /* Constants.swift */; };
+		717604492924E7C400481FC1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717604482924E7C400481FC1 /* Tweet.swift */; };
 		7194196B291CE6ED0009E5D7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194196A291CE6ED0009E5D7 /* LoginController.swift */; };
 		7194196E291CE7ED0009E5D7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194196D291CE7ED0009E5D7 /* RegistrationController.swift */; };
 		71941971291CF0C70009E5D7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71941970291CF0C70009E5D7 /* Utilities.swift */; };
@@ -52,6 +53,7 @@
 		713DB774291C15CE00063F5D /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		713DB777291C1BFA00063F5D /* Extensions+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+Layout.swift"; sourceTree = "<group>"; };
 		716BADAA291ED289008C6F69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		717604482924E7C400481FC1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		7194196A291CE6ED0009E5D7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7194196D291CE7ED0009E5D7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		71941970291CF0C70009E5D7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				71CB7F6B29214B88006E0715 /* User.swift */,
+				717604482924E7C400481FC1 /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				7194196E291CE7ED0009E5D7 /* RegistrationController.swift in Sources */,
 				713DB76C291C146A00063F5D /* FeedController.swift in Sources */,
 				716BADAB291ED289008C6F69 /* Constants.swift in Sources */,
+				717604492924E7C400481FC1 /* Tweet.swift in Sources */,
 				71A42C3329240EFA009E3344 /* TweetService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
