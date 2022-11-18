@@ -38,6 +38,7 @@
 		71CB7F6C29214B88006E0715 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB7F6B29214B88006E0715 /* User.swift */; };
 		71CB7F70292171AD006E0715 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 71CB7F6F292171AD006E0715 /* SDWebImage */; };
 		71F29E86292291AA00A4D438 /* UploadTweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F29E85292291AA00A4D438 /* UploadTweetController.swift */; };
+		71FDC4C22927803A00EAA9DE /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDC4C12927803A00EAA9DE /* ProfileHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		71CB7F69292147DB006E0715 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		71CB7F6B29214B88006E0715 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		71F29E85292291AA00A4D438 /* UploadTweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetController.swift; sourceTree = "<group>"; };
+		71FDC4C12927803A00EAA9DE /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				71B39DC229277004006030B4 /* ProfileController.swift */,
+				71FDC4C12927803A00EAA9DE /* ProfileHeader.swift */,
 			);
 			path = ProfileScreen;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				71941971291CF0C70009E5D7 /* Utilities.swift in Sources */,
 				71158E23291C013100E96D95 /* AppDelegate.swift in Sources */,
 				71B39DC329277004006030B4 /* ProfileController.swift in Sources */,
+				71FDC4C22927803A00EAA9DE /* ProfileHeader.swift in Sources */,
 				7189EA6129253A7500977CD9 /* TweetCell.swift in Sources */,
 				713DB778291C1BFA00063F5D /* Extensions+Layout.swift in Sources */,
 				7194196B291CE6ED0009E5D7 /* LoginController.swift in Sources */,
