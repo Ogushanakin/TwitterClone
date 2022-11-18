@@ -33,6 +33,7 @@
 		71A2263D291E444B00FDBF43 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2263C291E444B00FDBF43 /* FirebaseStorage */; };
 		71A42C312923E6A3009E3344 /* CaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C302923E6A3009E3344 /* CaptionTextView.swift */; };
 		71A42C3329240EFA009E3344 /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C3229240EFA009E3344 /* TweetService.swift */; };
+		71B39DC329277004006030B4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B39DC229277004006030B4 /* ProfileController.swift */; };
 		71CB7F6A292147DB006E0715 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB7F69292147DB006E0715 /* UserService.swift */; };
 		71CB7F6C29214B88006E0715 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB7F6B29214B88006E0715 /* User.swift */; };
 		71CB7F70292171AD006E0715 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 71CB7F6F292171AD006E0715 /* SDWebImage */; };
@@ -64,6 +65,7 @@
 		71A22633291E434000FDBF43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		71A42C302923E6A3009E3344 /* CaptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionTextView.swift; sourceTree = "<group>"; };
 		71A42C3229240EFA009E3344 /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
+		71B39DC229277004006030B4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		71CB7F69292147DB006E0715 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		71CB7F6B29214B88006E0715 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		71F29E85292291AA00A4D438 /* UploadTweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		713DB761291C127100063F5D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				71B39DC129276FF4006030B4 /* ProfileScreen */,
 				71F29E872922922C00A4D438 /* TweetScreen */,
 				71941969291CE6CA0009E5D7 /* LoginScreen */,
 				7194196C291CE7CA0009E5D7 /* RegistrationScreen */,
@@ -206,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				713DB76B291C146A00063F5D /* FeedController.swift */,
+				7189EA6029253A7500977CD9 /* TweetCell.swift */,
 			);
 			path = FeedScreen;
 			sourceTree = "<group>";
@@ -267,6 +271,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		71B39DC129276FF4006030B4 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				71B39DC229277004006030B4 /* ProfileController.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
 		71CB7F6D29214B90006E0715 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,7 +293,6 @@
 			children = (
 				71F29E85292291AA00A4D438 /* UploadTweetController.swift */,
 				71A42C302923E6A3009E3344 /* CaptionTextView.swift */,
-				7189EA6029253A7500977CD9 /* TweetCell.swift */,
 			);
 			path = TweetScreen;
 			sourceTree = "<group>";
@@ -376,6 +387,7 @@
 				713DB775291C15CE00063F5D /* ConversationsController.swift in Sources */,
 				71941971291CF0C70009E5D7 /* Utilities.swift in Sources */,
 				71158E23291C013100E96D95 /* AppDelegate.swift in Sources */,
+				71B39DC329277004006030B4 /* ProfileController.swift in Sources */,
 				7189EA6129253A7500977CD9 /* TweetCell.swift in Sources */,
 				713DB778291C1BFA00063F5D /* Extensions+Layout.swift in Sources */,
 				7194196B291CE6ED0009E5D7 /* LoginController.swift in Sources */,
