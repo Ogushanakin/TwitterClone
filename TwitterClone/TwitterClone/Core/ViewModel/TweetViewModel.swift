@@ -63,11 +63,21 @@ struct TweetViewModel {
         self.user = tweet.user
     }
     
-    func attributedText(withValue value: Int, text: String) -> NSAttributedString {
+    fileprivate func attributedText(withValue value: Int, text: String) -> NSAttributedString {
         let attributedTitle = NSMutableAttributedString(string: "\(value)",
                                                         attributes: [.font : UIFont.boldSystemFont(ofSize: 14)])
         attributedTitle.append(NSAttributedString(string: " \(text)",
                                                   attributes: [.font: UIFont.systemFont(ofSize: 14), NSAttributedString.Key.foregroundColor: UIColor.lightGray]))
         return attributedTitle
+    }
+    
+    func size(forWidth width: CGFloat) -> CGSize {
+        let measurementLabel = UILabel()
+        measurementLabel.text = tweet.caption
+        measurementLabel.numberOfLines = 0
+        measurementLabel.lineBreakMode = .byWordWrapping
+        measurementLabel.translatesAutoresizingMaskIntoConstraints = false
+        measurementLabel.widthAnchor.constraint(equalToConstant: width).isActive = false
+        return measurementLabel.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
     }
 }
