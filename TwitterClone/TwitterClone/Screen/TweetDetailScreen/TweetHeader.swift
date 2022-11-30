@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol TweetHeaderDelegate: AnyObject {
+    func showActionSheet()
+}
+
 final class TweetHeader: UICollectionReusableView {
     
     // MARK: - Properties
@@ -14,6 +18,8 @@ final class TweetHeader: UICollectionReusableView {
     var tweet: Tweet? {
         didSet { configure() }
     }
+    
+    weak var delegate: TweetHeaderDelegate?
     
     private lazy var profileImageView: UIImageView = {
         let iv = UIImageView()
@@ -177,7 +183,7 @@ final class TweetHeader: UICollectionReusableView {
     }
     
     @objc func showActionSheet() {
-        print("DEBUG: Handle show action sheet...")
+        delegate?.showActionSheet()
     }
     
     @objc func handleCommentTapped() {
