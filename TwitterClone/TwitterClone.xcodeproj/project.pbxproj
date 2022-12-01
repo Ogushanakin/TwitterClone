@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		710EB1B82926A01E007412F0 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EB1B72926A01E007412F0 /* TweetViewModel.swift */; };
+		71128B382938642700CD43E3 /* ActionSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71128B372938642700CD43E3 /* ActionSheetCell.swift */; };
 		71158E23291C013100E96D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71158E22291C013100E96D95 /* AppDelegate.swift */; };
 		71158E25291C013100E96D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71158E24291C013100E96D95 /* SceneDelegate.swift */; };
 		71158E2A291C013100E96D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71158E28291C013100E96D95 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		710EB1B72926A01E007412F0 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
+		71128B372938642700CD43E3 /* ActionSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetCell.swift; sourceTree = "<group>"; };
 		71158E1F291C013100E96D95 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71158E22291C013100E96D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71158E24291C013100E96D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				71941970291CF0C70009E5D7 /* Utilities.swift */,
 				716BADAA291ED289008C6F69 /* Constants.swift */,
 				71DB46612937C5BD00CBDF7E /* ActionSheetLauncher.swift */,
+				71128B372938642700CD43E3 /* ActionSheetCell.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				713DB773291C15B400063F5D /* NotificationsController.swift in Sources */,
 				713DB775291C15CE00063F5D /* ConversationsController.swift in Sources */,
 				71941971291CF0C70009E5D7 /* Utilities.swift in Sources */,
+				71128B382938642700CD43E3 /* ActionSheetCell.swift in Sources */,
 				71158E23291C013100E96D95 /* AppDelegate.swift in Sources */,
 				71B39DC329277004006030B4 /* ProfileController.swift in Sources */,
 				714BD20A29323AF0004206E6 /* TweetController.swift in Sources */,
