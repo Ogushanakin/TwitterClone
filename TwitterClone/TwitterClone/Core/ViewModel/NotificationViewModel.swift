@@ -37,10 +37,6 @@ struct NotificationViewModel {
         }
     }
     
-    var profileImageURL: URL? {
-        return user.profileImageUrl
-    }
-    
     var notificationText: NSAttributedString? {
         guard let timestamp = timestampString else { return nil }
         let attributedText = NSMutableAttributedString(string: user.username,
@@ -50,6 +46,18 @@ struct NotificationViewModel {
         attributedText.append(NSAttributedString(string: " \(timestamp)",
                                                  attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 12), NSAttributedString.Key.foregroundColor: UIColor.lightGray]))
         return attributedText
+    }
+    
+    var profileImageURL: URL? {
+        return user.profileImageUrl
+    }
+    
+    var shouldHideFollowButton: Bool {
+        return type != .follow 
+    }
+    
+    var followButtonText: String {
+        return user.isFollowed ? "Following" : "Follow"
     }
     
     init(notification: Notification) {
