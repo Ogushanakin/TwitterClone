@@ -108,6 +108,7 @@ final class TweetCell: UICollectionViewCell {
         imageCaptionStack.alignment = .leading
         
         let stack = UIStackView(arrangedSubviews: [replyLabel, imageCaptionStack])
+        stack.axis = .vertical
         stack.spacing = 8
         stack.distribution = .fillProportionally
         
