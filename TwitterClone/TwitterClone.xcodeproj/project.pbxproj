@@ -48,7 +48,7 @@
 		71A2263B291E444B00FDBF43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2263A291E444B00FDBF43 /* FirebaseFirestore */; };
 		71A2263D291E444B00FDBF43 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 71A2263C291E444B00FDBF43 /* FirebaseStorage */; };
 		71A34B90293679D0008F5EA0 /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A34B8F293679D0008F5EA0 /* UploadTweetViewModel.swift */; };
-		71A42C312923E6A3009E3344 /* CaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C302923E6A3009E3344 /* CaptionTextView.swift */; };
+		71A42C312923E6A3009E3344 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C302923E6A3009E3344 /* InputTextView.swift */; };
 		71A42C3329240EFA009E3344 /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C3229240EFA009E3344 /* TweetService.swift */; };
 		71B39DC329277004006030B4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B39DC229277004006030B4 /* ProfileController.swift */; };
 		71CB7F6A292147DB006E0715 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB7F69292147DB006E0715 /* UserService.swift */; };
@@ -99,7 +99,7 @@
 		71941970291CF0C70009E5D7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		71A22633291E434000FDBF43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		71A34B8F293679D0008F5EA0 /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
-		71A42C302923E6A3009E3344 /* CaptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionTextView.swift; sourceTree = "<group>"; };
+		71A42C302923E6A3009E3344 /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		71A42C3229240EFA009E3344 /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
 		71B39DC229277004006030B4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		71CB7F69292147DB006E0715 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -365,7 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				71F29E85292291AA00A4D438 /* UploadTweetController.swift */,
-				71A42C302923E6A3009E3344 /* CaptionTextView.swift */,
+				71A42C302923E6A3009E3344 /* InputTextView.swift */,
 			);
 			path = TweetScreen;
 			sourceTree = "<group>";
@@ -455,7 +455,7 @@
 			files = (
 				71CB7F6C29214B88006E0715 /* User.swift in Sources */,
 				71CB7F6A292147DB006E0715 /* UserService.swift in Sources */,
-				71A42C312923E6A3009E3344 /* CaptionTextView.swift in Sources */,
+				71A42C312923E6A3009E3344 /* InputTextView.swift in Sources */,
 				718A614729290BC300421FD8 /* ProfileFilterCell.swift in Sources */,
 				713DB773291C15B400063F5D /* NotificationsController.swift in Sources */,
 				713DB775291C15CE00063F5D /* ConversationsController.swift in Sources */,
