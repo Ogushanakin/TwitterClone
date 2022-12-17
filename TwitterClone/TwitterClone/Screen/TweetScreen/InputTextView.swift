@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class CaptionTextView: UITextView {
+final class InputTextView: UITextView {
     
     // MARK: - Properties
     
